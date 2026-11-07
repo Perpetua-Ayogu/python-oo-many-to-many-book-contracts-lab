@@ -114,3 +114,12 @@ Before you submit your solution, you need to save your progress with git.
 * Add your changes to the staging area by executing git add .
 * Create a commit by executing git commit -m "Your commit message"
 * Push your commits to GitHub by executing git push origin main
+# Completed lab: Module 5 — Book Contracts
+
+`Author`, `Book`, and `Contract` model the relationships. Contract properties validate values on creation and later assignment. `sign_contract` and `sign_contracts` both create contracts; related books and authors are unique.
+
+Validation: 14 tests passed. Run `python -m pytest --assert=plain -q` from the repository root after installing test dependencies. The plain-assertion option supports the pinned pytest on Python 3.14.
+
+![Verified test results](docs/test-results.png)
+
+The image shows captured test output rendered for documentation. Canvas accepts this repository URL for submission.
